@@ -222,7 +222,7 @@
     "webpack-stats-plugin": "^0.2.1"
   },
   "optionalDependencies": {
-     "gl": "^6.0.2",
+     "gl": "^6.0.2"
   },
   "resolutions": {
     "@loaders.gl/core": "4.3.2",
