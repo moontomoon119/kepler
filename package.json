@@ -43,7 +43,7 @@
   },
   "scripts": {
     "bootstrap": "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true git submodule update --init --recursive && yarn install && yarn fix-dependencies",
-    "install:example": "cd examples/demo-app && NODE_OPTIONS=--openssl-legacy-provider yarn",
+    "install:example": "cd examples/demo-app && yarn install",
     "install:web": "yarn install:example && cd website && yarn",
     "install-and-start": "node ./scripts/install-and-start",
     "test-fast": "yarn test-node-debug && yarn test-browser-debug",
