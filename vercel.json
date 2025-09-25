@@ -1,5 +1,4 @@
 {
-  "buildCommand": "yarn install && yarn install:example && cd examples/demo-app && yarn build",
-  "outputDirectory": "examples/demo-app/build",
-  "installCommand": "yarn install"
+  "buildCommand": "cd examples/demo-app && yarn install && yarn build",
+  "outputDirectory": "examples/demo-app/dist"
 }
